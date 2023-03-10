@@ -1,276 +1,359 @@
 <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOUNTIA</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오 - 프론트엔드 개발자 전승우</title>
     <link rel="stylesheet" href="./css/reset.css" type="text/css" />
     <link rel="stylesheet" href="./css/main.css" type="text/css" />
-</head>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
 
-<body>
+  <body>
     <div id="wrap">
-        <!-- 상단부분 --------------------------------------------------------------------------------------------------------------->
-        <header id="header">
-            <div id="header_in">
-                <div class="logo">
-                    <h1><img src="./images/logo.jpg" alt=""></h1>
-                </div>
-                <div class="menu">
-                    <ul class="infomn">
-                        <li><a href="#">JOIN</a></li>
-                        <li><a href="#">LOGIN</a></li>
-                        <li><a href="#">MYPAGE</a></li>
-                        <li><a href="#">CART(0)</a></li>
-                        <li><a href="#">즐겨찾기</a></li>
-                    </ul>
-                    <ul class="q_mn">
-                        <li><a href="#">NEW</a></li>
-                        <li><a href="#">BEST</a></li>
-                        <li><a href="#">EVENT</a></li>
-                    </ul>
-                    <div class="input">
-                        <span>검색어를 입력해주세요.</span>
-                        <a href="#"><img src="./images/serch.jpg" alt=""></a>
-                    </div>
-                </div>
+      <!------------------------------------------ MAIN --------------------------------------------------->
+      <div id="main" class="contents">
+        <div class="in_main">
+          <div class="header on">
+            <h1 class="logo">J·S·W</h1>
+            <ul class="nav">
+              <li class="on"><a href="#">Home</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Skill</a></li>
+              <li><a href="#">project</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="newHeader">
+            <h1 class="logo">J·S·W</h1>
+            <ul class="nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Skill</a></li>
+              <li><a href="#">project</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="main_text_box">
+            <h2>Hello, I'm <span>Jun Seung Woo</span></h2>
+            <p>UX Designer & Front End Developer</p>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------ PROFILE ------------------------------------------------>
+      <div id="profile" class="contents">
+        <div class="deco_line_up"></div>
+        <div class="profile_deco"></div>
+        <div class="in_profile">
+          <div class="profile_text_box">
+            <h2 class="subttl">PROFILE</h2>
+            <div class="profile_ttl">
+              <h2>전승우</h2>
+              <ul>
+                <li>Port</li>
+                <li>Fo</li>
+                <li>Lio</li>
+              </ul>
             </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#"><img src="./images/nav_01.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_02.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_03.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_04.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_05.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_06.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_07.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_08.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="./images/nav_09.jpg" alt=""></a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- 메인이미지 ------------------------------------------------------------------------------------------------------------->
-        <section id="main_img"></section>
-
-        <!-- 콘텐츠 ----------------------------------------------------------------------------------------------------------------->
-        <section id="contents">
-
-            <!-- ITEM ----------------------------------------------------------------------------------------------------------------->
-
-            <article id="item">
-                <header class="item_h">
-                    <h3 class="ttl">POPULAR<br>ITEM</h3>
-                    <ul class="menu">
-                        <li><a href="#">EXPEDITION</a></li>
-                        <li><a href="#">TREKKING LINE</a></li>
-                        <li><a href="#">TRAVEL LINE</a></li>
-                    </ul>
-                </header>
-                <section class="item_b">
-                    <ul>
-                        <li><img src="./images/popular_item.jpg" alt="">
-                            <h5>[트레킹]휠리#1</h5>
-                            <p>98,000원</p>
-                        </li>
-                        <li><img src="./images/popular_item.jpg" alt="">
-                            <h5>[트레킹]휠리#1</h5>
-                            <p>98,000원</p>
-                        </li>
-                        <li><img src="./images/popular_item.jpg" alt="">
-                            <h5>[트레킹]휠리#1</h5>
-                            <p>98,000원</p>
-                        </li>
-                        <li><img src="./images/popular_item.jpg" alt="">
-                            <h5>[트레킹]휠리#1</h5>
-                            <p>98,000원</p>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-
-            <!-- BANNER ----------------------------------------------------------------------------------------------------------------->
-
-            <article id="banner">
-                <a href="#"><img src="./images/banner01.jpg" alt=""></a>
-                <a href="#"><img src="./images/banner02.jpg" alt=""></a>
-                <a href="#"><img src="./images/banner03.jpg" alt=""></a>
-            </article>
-
-            <!-- MOVIE ----------------------------------------------------------------------------------------------------------------->
-
-            <article id="movie">
-                <a class="btn01" href="#">movie</a>
-                <a class="btn02" href="#">movie</a>
-            </article>
-
-            <!-- STYLE ----------------------------------------------------------------------------------------------------------------->
-
-            <article id="style">
-                <header id="style_h">
-                    <h3 class="ttl">STYLE OF<br>THE WEEK</h3>
-                    <ul class="menu">
-                        <li><a href="#">MAN</a></li>
-                        <li><a href="#">WOMAN</a></li>
-                        <li><a href="#">CAMPING</a></li>
-                    </ul>
-                </header>
-                <ul id="style_b">
-                    <figure>
-                        <img src="./images/1MQJDW402_0_198.jpg" alt="">
-                        <figcaption>
-                            <h4>에이스자켓#6</h4>
-                            <p>128,000원</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="./images/1MQJDW402_0_198.jpg" alt="">
-                        <figcaption>
-                            <h4>에이스자켓#6</h4>
-                            <p>128,000원</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="./images/1MQJDW402_0_198.jpg" alt="">
-                        <figcaption>
-                            <h4>에이스자켓#6</h4>
-                            <p>128,000원</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="./images/1MQJDW402_0_198.jpg" alt="">
-                        <figcaption>
-                            <h4>에이스자켓#6</h4>
-                            <p>128,000원</p>
-                        </figcaption>
-                    </figure>
-                </ul>
-            </article>
-
-            <!-- GO_BTNS ----------------------------------------------------------------------------------------------------------------->
-
-            <article id="go_btns">
-                <div class="group">
-                    <a href="#"><img src="./images/goto_shop01.png" alt=""></a>
-                    <a href="#"><img src="./images/goto_shop02.png" alt=""></a>
-                </div>
-                <a href="#"><img src="./images/goto_shop03.png" alt=""></a>
-            </article>
-        </section>
-
-        <!-- 하단 ------------------------------------------------------------------------------------------------------------------->
-        <footer id="footer">
-            <div class="group">
-                <div class="banner_box">
-                    <img src="./images/footer_top01.png" alt="">
-                    <img src="./images/footer_top02.png" alt="">
-                </div>
-                <div class="notice">
-                    <h4 class="ttl">NOTICE</h4>
-                    <p class="txt">[공지]휴무 및 배송안내</p>
-                    <p class="date">2022-11-01</p>
-                </div>
+          </div>
+          <div class="timeline">
+            <div class="profile_txt">
+              <p>
+                항상 지금보다 조금더 나은 개발을 하기 위해 꾸준히 공부하는
+                개발자가 되려고 노력하고 있습니다.
+              </p>
             </div>
-            <div id="f_top">
-                <div>
-                    <ul class="main_mn">
-                        <li>
-                            <h4>CATEGORIES</h4>
-                            <ul class="sub_mn">
-                                <li><a href="#">ACTIVITY</a></li>
-                                <li><a href="#">MAN</a></li>
-                                <li><a href="#">WOMAN</a></li>
-                                <li><a href="#">FOOTWEAR</a></li>
-                                <li><a href="#">BAGS</a></li>
-                                <li><a href="#">EQUIPMENT</a></li>
-                                <li><a href="#">CAMPING</a></li>
-                                <li><a href="#">NEW ARRIVALS</a></li>
-                                <li><a href="#">BEST SELLERS</a></li>
-                                <li><a href="#">EVENT</a></li>
-                                <li><a href="#">기획전</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>MY ACCOUNT</h4>
-                            <ul class="sub_mn">
-                                <li><a href="#">주문/배송조회</a></li>
-                                <li><a href="#">취소/반품조회</a></li>
-                                <li><a href="#">쿠폰</a></li>
-                                <li><a href="#">포인트</a></li>
-                                <li><a href="#">오늘본상품</a></li>
-                                <li><a href="#">배송주소록</a></li>
-                                <li><a href="#">회원정보수정</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>CUSTOMER SERVICE</h4>
-                            <ul class="sub_mn">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">1:1문의</a></li>
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">멤버십혜택</a></li>
-                                <li><a href="#">유효기간제 대상고객 조회<br>및 포인트 통합 신청</a></li>
-                                <li><a href="#">단체주문문의</a></li>
-                                <li><a href="#">원격지원</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>MOUNTIA BRAND</h4>
-                            <ul class="sub_mn">
-                                <li><a href="#">BRAND STORY</a></li>
-                                <li><a href="#">STYLE INSIDE</a></li>
-                                <li><a href="#">LOOKBOOK</a></li>
-                                <li><a href="#">TECH</a></li>
-                                <li><a href="#">STORE</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="callcenter">
-                        <h3 class="ttl">02-2286-9707</h3>
-                        <h4 class="s_ttl">고객센터 운영시간 안내 :</h4>
-                        <p class="txt">평일 09:00~18:00<br>
-                            주말(토/일), 공휴일휴무</p>
-                        <h4 class="s_ttl">음성 고객센터 안내:</h4>
-                        <p class="txt">1636 + "아웃도어", "등산복"</p>
-                        <ul class="app_mn">
-                            <li>ANDROID APP</li>
-                            <li>IOS APP</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="f_bot">
-                <div>
-                    <h3><img src="./images/f_bot_logo.jpg" alt=""></h3>
-                    <!-- width:87px height:59px -->
-                    <!--width:730px-->
-                    <div class="f_bot_main">
-                        <ul class="info_mn">
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                            <li><a href="#">찾아오시는길</a></li>
-                            <li><a href="#">고객센터</a></li>
-                        </ul>
-                        <address>
-                            <p>
-                                [주]블략야크 아이앤씨 대표이사 : 강준석 개인정보책임자 : 강준석 개인정보담당자 : 손우경 팀장<br>
-                                사업자등록번호 : 119-86-75454 통신판매업신고 : 제2015-서울서초-0069호<br>
-                                137-886 서울특별시 서초구 바우뫼로201 블랙야크 양재사옥 3층<br>
-                                copyrightⓒBLACKYAK I&C CO.LTD.ALL RIGHT RESERVED.
-                            </p>
-                        </address>
-                    </div>
-                    <div class="btn">
-                        <a href="#"><img src="./images/button_facebook.png" alt=""></a>
-                        <a href="#"><img src="./images/button_youtube.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+            <h3>TimeLine</h3>
+            <ul>
+              <li>부산대학교 전기과 졸업</li>
+              <li>2022.10.13 ~ 2023.03.10 코리아 IT 아카데미 부산점 수강</li>
+            </ul>
+          </div>
+        </div>
+        <div class="deco_line_down"></div>
+      </div>
+      <!------------------------------------------ SKILL -------------------------------------------------->
+      <div id="skill" class="contents">
+        <div class="deco_line_up"></div>
+        <div class="in_skill">
+          <div class="skill_text_box">
+            <h2 class="subttl">SKILL</h2>
+          </div>
+          <ul class="skill_list">
+            <li>
+              <h5>html</h5>
+              <div>
+                <div class="in_box in_box01">80%</div>
+              </div>
+            </li>
+            <li>
+              <h5>css</h5>
+              <div>
+                <div class="in_box in_box02">80%</div>
+              </div>
+            </li>
+            <li>
+              <h5>jQuery</h5>
+              <div>
+                <div class="in_box in_box03">70%</div>
+              </div>
+            </li>
+            <li>
+              <h5>node.js</h5>
+              <div>
+                <div class="in_box in_box04">50%</div>
+              </div>
+            </li>
+            <li>
+              <h5>React</h5>
+              <div>
+                <div class="in_box in_box05">60%</div>
+              </div>
+            </li>
+          </ul>
+          <div class="my_skill">
+            <p class="skill_btn">
+              <b>HTML</b> <span class="colon">:</span>
+              <span class="my_skill_text"
+                >원하는 페이지의 구성을 위해 여러 태그들을 상황에 맞게 적절히
+                사용할 수 있습니다.</span
+              >
+            </p>
+            <p class="skill_btn">
+              <b>CSS</b> <span class="colon">:</span>
+              <span class="my_skill_text"
+                >계획한 대로 마크업을 할 수 있으며, 'media query'를 사용하여
+                반응형 웹 페이지를 만들 수 있습니다.</span
+              >
+            </p>
+            <p class="skill_btn">
+              <b>JQUERY</b> <span class="colon">:</span>
+              <span class="my_skill_text"
+                >jQuery를 사용하여 이미지 슬라이드나 메뉴 풀다운과 같은
+                애니메이션 효과를 줄 수 있습니다.</span
+              >
+            </p>
+            <p class="skill_btn">
+              <b>NODE.JS</b> <span class="colon">:</span>
+              <span class="my_skill_text"></span>
+            </p>
+            <p class="skill_btn">
+              <b>REACT</b> <span class="colon">:</span>
+              <span class="my_skill_text"
+                >React로 웹 페이지를 만들고 부트스트랩을 사용하여 여러 기능을
+                만들 수 있습니다.</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="deco_line_down"></div>
+        <script>
+          $(function () {
+            let scene01Num = 1;
+
+            $(window).scroll(function () {
+              let scrollTop = $(document).scrollTop();
+              let windowHeight = $(window).height();
+
+              if (scrollTop >= 2 * windowHeight && scene01Num == 1) {
+                scene01Num = 0;
+                $("#skill .in_box01")
+                  .stop()
+                  .delay(0)
+                  .css({ left: "-100%" })
+                  .animate({ left: "-20%" }, 1000);
+                $("#skill .in_box02")
+                  .stop()
+                  .delay(300)
+                  .css({ left: "-100%" })
+                  .animate({ left: "-20%" }, 1000);
+                $("#skill .in_box03")
+                  .stop()
+                  .delay(600)
+                  .css({ left: "-100%" })
+                  .animate({ left: "-30%" }, 1000);
+                $("#skill .in_box04")
+                  .stop()
+                  .delay(900)
+                  .css({ left: "-100%" })
+                  .animate({ left: "-50%" }, 1000);
+                $("#skill .in_box05")
+                  .stop()
+                  .delay(1200)
+                  .css({ left: "-100%" })
+                  .animate({ left: "-40%" }, 1000);
+              } else if (scrollTop < 2 * windowHeight && scene01Num == 0) {
+                scene01Num = 1;
+                $("#skill .in_box01")
+                  .stop()
+                  .css({ left: "-20%" })
+                  .animate({ left: "-100%" }, 1000);
+                $("#skill .in_box02")
+                  .stop()
+                  .css({ left: "-20%" })
+                  .animate({ left: "-100%" }, 1000);
+                $("#skill .in_box03")
+                  .stop()
+                  .css({ left: "-30%" })
+                  .animate({ left: "-100%" }, 1000);
+                $("#skill .in_box04")
+                  .stop()
+                  .css({ left: "-50%" })
+                  .animate({ left: "-100%" }, 1000);
+                $("#skill .in_box05")
+                  .stop()
+                  .css({ left: "-40%" })
+                  .animate({ left: "-100%" }, 1000);
+              }
+            });
+          });
+        </script>
+      </div>
+      <!------------------------------------------ PROJECT ----------------------------------------------->
+      <div id="project_1" class="contents">
+        <div class="deco_line_up"></div>
+        <div class="in_project_1">
+          <div class="project_text_box">
+            <h2 class="subttl">PROJECT</h2>
+          </div>
+          <ul class="list">
+            <li class="output">
+              <div>
+                <img src="./images/portfolio.png" alt="" />
+              </div>
+            </li>
+            <li class="account">
+              <h3>프로젝트명 : 대한항공 홈페이지 리뉴얼(포트폴리오용)</h3>
+              <p>작업기간 : 3주</p>
+              <p>
+                작업요점 :
+                <span> React를 사용하여 작업을 했습니다.<br /> </span>
+              </p>
+              <p>사용기술 : HTML, CSS, React</p>
+              <div>
+                <a
+                  href="https://renewal-site-frontend10-jsw.netlify.app"
+                  target="_blank"
+                  >결과물보기</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="deco_line_down"></div>
+      </div>
+      <!------------------------------------------ CONTACT ------------------------------------------------->
+      <div id="contact" class="contents">
+        <div class="deco_line_up"></div>
+        <div class="in_contact">
+          <div class="contact_text_box">
+            <h2 class="subttl">CONTACT</h2>
+            <p>메일을 보내주세요~~</p>
+          </div>
+          <div class="form_box">
+            <form id="form" class="input_box">
+              <div class="field">
+                <label for="from_name">from_name</label>
+                <input
+                  type="text"
+                  name="from_name"
+                  id="from_name"
+                  placeholder="보내는 이"
+                />
+              </div>
+              <div class="field">
+                <label for="to_name">to_name</label>
+                <input type="text" name="to_name" id="to_name" value="전승우" />
+              </div>
+              <div class="field">
+                <label for="message">message</label>
+                <input
+                  type="text"
+                  name="message"
+                  id="message"
+                  placeholder="전하고 싶은 말"
+                />
+              </div>
+              <div class="field">
+                <label for="tell">tel</label>
+                <input
+                  type="text"
+                  name="tell"
+                  id="tell"
+                  placeholder="010-0000-0000"
+                />
+              </div>
+              <div class="field">
+                <label for="reply_to">reply_to</label>
+                <input
+                  type="text"
+                  name="reply_to"
+                  id="reply_to"
+                  placeholder="메일 주소"
+                />
+              </div>
+
+              <input type="submit" id="button" value="Send Email" />
+            </form>
+
+            <!-- <a href="https://.pngtree.com/so/안드로이드"
+              >안드로이드 png에서 .pngtree.com/</a
+            >
+            <a href="https://.pngtree.com/so/빈">빈 png에서 .pngtree.com/</a> -->
+
+            <script
+              type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+            ></script>
+
+            <script type="text/javascript">
+              emailjs.init("4TGkU5JuYKb793So6");
+
+              const btn = document.getElementById("button");
+
+              document
+                .getElementById("form")
+                .addEventListener("submit", function (event) {
+                  event.preventDefault();
+
+                  btn.value = "Sending...";
+
+                  const serviceID = "service_zy8sgpf";
+                  const templateID = "template_dt7olgb";
+
+                  emailjs.sendForm(serviceID, templateID, this).then(
+                    () => {
+                      btn.value = "Send Email";
+                      alert("메일보내기 성공");
+                    },
+                    (err) => {
+                      btn.value = "Send Email";
+                      alert(JSON.stringify(err));
+                    }
+                  );
+                });
+            </script>
+          </div>
+        </div>
+        <div class="deco_line_down"></div>
+      </div>
     </div>
-</body>
+    <!----------------------------------------- QUICK_MENU ---------------------------------------------->
+    <div id="q_mn">Menu</div>
+    <script>
+      $(document).ready(function () {
+        let windowHeight = $(window).height();
 
+        $(window).scroll(function () {
+          var windowTop = $(window).scrollTop() + windowHeight / 2;
+          $("#q_mn")
+            .stop()
+            .animate({ top: windowTop + "px" }, 300);
+        });
+      });
+    </script>
+    <!----------------------------------------- QUICK_MENU ---------------------------------------------->
+  </body>
 </html>
